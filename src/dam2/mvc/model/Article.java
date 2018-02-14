@@ -51,10 +51,10 @@ public class Article {
 	 */	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("Article=>");
-		sb.append("id:"); sb.append(id);
-		sb.append(";desc:"); sb.append(desc);
-		sb.append(";price:"); sb.append(price);
+		sb.append("Article=> ");
+		sb.append("id: "); sb.append(id);
+		sb.append(";desc: "); sb.append(desc);
+		sb.append(";price: "); sb.append(price);
 		return sb.toString();
 	}
 	/* equals()

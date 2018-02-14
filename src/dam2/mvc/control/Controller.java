@@ -22,11 +22,13 @@ public class Controller {
 		model.addArticle(art);
 	}
 
-	public void modifyArticle(Article art) {
+	public void modifyArticle(String id ) {
+            model.modifyArticle(id);
 		// TO DO
 	}
 	
-	public void removeArticle(Article art) {
+	public void removeArticle(String id) {
+            model.removeArticle(id);
 		// TO DO
 	}
 	
